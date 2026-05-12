@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>universal</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>20260512141939A594WW</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20260512141939MBD7KL</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>4.0.0</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>Cuidemos nuestro entorno</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_subtitle</key>
+    <value>Misión ciudadana</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_author</key>
+    <value>Daniel Vallejo</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_description</key>
+    <value>Vuestra ciudad tiene un problema real: los excrementos de perro en las aceras afectan a la salud y a la convivencia. Os necesitamos para investigarlo, crear una campaña y hacer que las cosas cambien de verdad.</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>universal</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1778588275340</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_extraHeadContent</key>
+    <value>
+ 
+&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;!-- HERO --&gt;
+  &lt;div style=&quot;background:linear-gradient(135deg,#0a2e6e,#1565c0);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;position:relative;overflow:hidden;&quot;&gt;
+    &lt;div style=&quot;background:#ffca28;color:#3e2000;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🕵️ Misión Ciudadana&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;¡Bienvenidos, Agentes de Civismo Digital!&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Vuestra ciudad tiene un problema real: los excrementos de perro en las aceras afectan a la salud y a la convivencia. Os necesitamos para investigarlo, crear una campaña y hacer que las cosas cambien de verdad.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- PREGUNTA MOTRIZ --&gt;
+  &lt;div style=&quot;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:5px solid #f9a825;border-radius:10px;padding:20px 24px;margin-bottom:22px;&quot;&gt;
+    &lt;p style=&quot;font-size:13px;color:#6d4c00;font-weight:700;margin:0 0 8px;&quot;&gt;❓ La pregunta que guía todo nuestro trabajo&lt;/p&gt;
+    &lt;p style=&quot;font-size:16px;color:#4a3000;font-weight:700;line-height:1.5;margin:0;&quot;&gt;&quot;¿Cómo podemos informar y concienciar a nuestra comunidad sobre el impacto de los excrementos caninos en la salud pública y la convivencia, usando las herramientas digitales a nuestro alcance?&quot;&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- CUATRO FASES --&gt;
+  &lt;div style=&quot;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px;&quot;&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:18px 14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;div style=&quot;font-size:32px;margin-bottom:8px;&quot;&gt;🔍&lt;/div&gt;
+      &lt;div style=&quot;font-weight:800;color:#0d47a1;font-size:13px;margin-bottom:5px;&quot;&gt;Investigáis&lt;/div&gt;
+      &lt;div style=&quot;font-size:12px;color:#666;line-height:1.5;&quot;&gt;Buscáis datos reales sobre el impacto sanitario y legal.&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:18px 14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;div style=&quot;font-size:32px;margin-bottom:8px;&quot;&gt;📊&lt;/div&gt;
+      &lt;div style=&quot;font-weight:800;color:#0d47a1;font-size:13px;margin-bottom:5px;&quot;&gt;Analizáis&lt;/div&gt;
+      &lt;div style=&quot;font-size:12px;color:#666;line-height:1.5;&quot;&gt;Estudiais ordenanzas, multas y enfermedades con fuentes fiables.&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:18px 14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;div style=&quot;font-size:32px;margin-bottom:8px;&quot;&gt;🎨&lt;/div&gt;
+      &lt;div style=&quot;font-weight:800;color:#0d47a1;font-size:13px;margin-bottom:5px;&quot;&gt;Creáis&lt;/div&gt;
+      &lt;div style=&quot;font-size:12px;color:#666;line-height:1.5;&quot;&gt;Diseñáis una infografía en Canva o presentación en Genially.&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:18px 14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;div style=&quot;font-size:32px;margin-bottom:8px;&quot;&gt;📢&lt;/div&gt;
+      &lt;div style=&quot;font-weight:800;color:#0d47a1;font-size:13px;margin-bottom:5px;&quot;&gt;Difundís&lt;/div&gt;
+      &lt;div style=&quot;font-size:12px;color:#666;line-height:1.5;&quot;&gt;Lanzáis vuestra campaña a toda la comunidad educativa.&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- PRESENTACIÓN DEL PROYECTO (Drive embed) --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#0d47a1;margin:0 0 12px;&quot;&gt;📄 Presentación completa del proyecto&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 14px;line-height:1.6;&quot;&gt;A continuación podéis ver la descripción completa de la Situación de Aprendizaje: objetivos, competencias, metodología y estructura general del proyecto.&lt;/p&gt;
+    &lt;div style=&quot;position:relative;width:100%;padding-bottom:56.25%;height:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://drive.google.com/file/d/16bZj-xXsrfzzdY0mHAqmYydA7RG6EHNO/preview&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;border:0;&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- COMPETENCIAS --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#0d47a1;margin:0 0 14px;&quot;&gt;🎓 Competencias clave que trabajamos&lt;/h3&gt;
+    &lt;div style=&quot;display:grid;grid-template-columns:1fr 1fr;gap:10px;&quot;&gt;
+      &lt;div style=&quot;padding:12px;background:#e3f2fd;border-radius:8px;font-size:12.5px;&quot;&gt;&lt;strong style=&quot;color:#0d47a1;&quot;&gt;💻 Competencia Digital (CD)&lt;/strong&gt;&lt;br&gt;&lt;span style=&quot;color:#444;&quot;&gt;Búsqueda de información, creación de contenido y ciudadanía digital.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#e8f5e9;border-radius:8px;font-size:12.5px;&quot;&gt;&lt;strong style=&quot;color:#1b5e20;&quot;&gt;🏛️ Competencia Ciudadana (CC)&lt;/strong&gt;&lt;br&gt;&lt;span style=&quot;color:#444;&quot;&gt;Civismo, convivencia, derechos y deberes en la comunidad.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#fff8e1;border-radius:8px;font-size:12.5px;&quot;&gt;&lt;strong style=&quot;color:#6d4c00;&quot;&gt;📖 Comunicación Lingüística (CCL)&lt;/strong&gt;&lt;br&gt;&lt;span style=&quot;color:#444;&quot;&gt;Expresión oral, escrita y visual. Exposición argumentada.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#fce4ec;border-radius:8px;font-size:12.5px;&quot;&gt;&lt;strong style=&quot;color:#880e4f;&quot;&gt;🤝 CPSAA&lt;/strong&gt;&lt;br&gt;&lt;span style=&quot;color:#444;&quot;&gt;Competencia personal, social y de aprender a aprender.&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;
+ 
+ 
+
+-
+ 
+&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;!-- HERO --&gt;
+ &lt;!--https://drive.google.com/file/d/10tx1fVhV6ZUKYvEjLGAsLBlCrf8MIA4k/view?usp=drive_link--&gt;
+  &lt;div style=&quot;background:linear-gradient(135deg,#1a237e,#283593);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#90caf9;color:#0d1b4e;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🛡️ Ciudadanía Digital&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;Nuestros derechos y responsabilidades en la red&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Ser un buen Agente de Civismo Digital no empieza en la calle: empieza en cómo usamos internet. Antes de investigar, conoce las reglas.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;!--https://drive.google.com/file/d/10tx1fVhV6ZUKYvEjLGAsLBlCrf8MIA4k/view?usp=drive_link--&gt;
+  &lt;!-- INFOGRAFÍA DETECTIVES DIGITALES --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1a237e;margin:0 0 8px;&quot;&gt;🕵️ Guía «Detectives Digitales» — Tarea 2.3&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 14px;line-height:1.6;&quot;&gt;Esta infografía resume las 5 normas esenciales que debéis seguir siempre que uséis internet durante el proyecto. Léela con atención: forma parte de vuestra formación como Agentes de Civismo Digital.&lt;/p&gt;
+    &lt;div style=&quot;background:#e8eaf6;border-radius:8px;padding:16px;margin-bottom:14px;border-left:4px solid #3949ab;&quot;&gt;
+      &lt;p style=&quot;font-size:12.5px;color:#3949ab;font-weight:700;margin:0 0 4px;&quot;&gt;📌 Infografía elaborada por: Daniel Vallejo · Actividad 2.3 · Licencia CC BY-SA 4.0&lt;/p&gt;
+      &lt;p style=&quot;font-size:12px;color:#444;margin:0;&quot;&gt;Imágenes procedentes de Canva (uso educativo). Diseño original del autor.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;!-- https://drive.google.com/file/d/10tx1fVhV6ZUKYvEjLGAsLBlCrf8MIA4k/view?usp=drive_link --&gt;
+    &lt;div style=&quot;position:relative;width:100%;padding-bottom:130%;height:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://drive.google.com/file/d/SUSTITUYE_POR_ID_DE_LA_INFOGRAFIA/preview&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;border:0;&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- RESUMEN DEL DECÁLOGO --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1a237e;margin:0 0 14px;&quot;&gt;📋 Las 5 reglas de oro — Resumen&lt;/h3&gt;
+    &lt;div style=&quot;display:flex;flex-direction:column;gap:10px;&quot;&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e3f2fd;border-radius:8px;border-left:4px solid #1976d2;&quot;&gt;
+        &lt;div style=&quot;background:#0d47a1;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;1&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#0d2a47;font-size:13.5px;&quot;&gt;🔒 Protege tu escudo&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Tu dirección, teléfono y contraseñas son secretos de estado. Usa siempre tu nick de detective en las herramientas digitales.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e3f2fd;border-radius:8px;border-left:4px solid #1976d2;&quot;&gt;
+        &lt;div style=&quot;background:#0d47a1;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;2&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#0d2a47;font-size:13.5px;&quot;&gt;📸 Fotos en el barrio con cuidado&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Pide permiso antes de fotografiar a personas. No publiques imágenes de vecinos o matrículas sin consentimiento.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;
+        &lt;div style=&quot;background:#f57f17;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;3&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#4a3000;font-size:13.5px;&quot;&gt;🏆 El tesoro del autor (derechos de autor)&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;El trabajo de otros tiene valor. Usa solo imágenes con licencias Creative Commons y cita siempre la fuente. Pixabay, Unsplash y Wikimedia Commons son vuestros aliados.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;div style=&quot;background:#1b5e20;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;4&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#1b3a1d;font-size:13.5px;&quot;&gt;🤝 Netiqueta y respeto&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Trata a los demás online como te gustaría que te tratasen a ti. La amabilidad es la mejor huella digital que puedes dejar.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;div style=&quot;background:#1b5e20;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;5&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#1b3a1d;font-size:13.5px;&quot;&gt;🏅 Certificado de Agente Digital&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Al aplicar estas reglas en cada sesión, demuestras que eres un verdadero Líder Cívico Digital. ¡Misión de seguridad completada!&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;
+ 
+ 
+
+
+ 
+&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#4a148c,#6a1b9a);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#ce93d8;color:#1a0030;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🏆 El reto final&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;Ha llegado el momento de actuar&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Habéis investigado, analizado y debatido. Ahora toca crear algo que tenga impacto real. Vuestro trabajo va a llegar más allá del aula.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;div style=&quot;background:#fff8e1;border-left:4px solid #f9a825;border-radius:8px;padding:14px 18px;margin-bottom:22px;font-size:13px;color:#4a3300;&quot;&gt;
+    &lt;strong&gt;¿Cuál es el reto?&lt;/strong&gt; Cada equipo creará una &lt;strong&gt;infografía digital o presentación interactiva&lt;/strong&gt; sobre el impacto de los excrementos caninos en la ciudad, para difundirla en el centro y concienciar a la comunidad educativa.
+  &lt;/div&gt;
+ 
+  &lt;div style=&quot;display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px;&quot;&gt;
+    &lt;!-- CANVA --&gt;
+    &lt;div style=&quot;background:linear-gradient(135deg,#1565c0,#0d47a1);border-radius:12px;padding:24px;color:#fff;&quot;&gt;
+      &lt;h3 style=&quot;font-size:18px;font-weight:900;margin:0 0 10px;&quot;&gt;🎨 Opción A — Infografía con Canva&lt;/h3&gt;
+      &lt;p style=&quot;font-size:13px;opacity:.92;line-height:1.7;margin:0 0 14px;&quot;&gt;Crearéis una infografía visual en &lt;strong&gt;Canva for Education&lt;/strong&gt;. Podéis trabajar en equipo en tiempo real, cada uno desde su tablet.&lt;/p&gt;
+      &lt;div style=&quot;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);display:inline-block;padding:6px 14px;border-radius:18px;font-size:12px;font-weight:700;margin-bottom:14px;&quot;&gt;🎨 Canva for Education&lt;/div&gt;
+      &lt;hr style=&quot;border-color:rgba(255,255,255,.2);margin:14px 0;&quot;&gt;
+      &lt;p style=&quot;font-size:12px;opacity:.88;margin:0 0 6px;font-weight:700;&quot;&gt;La infografía debe incluir:&lt;/p&gt;
+      &lt;ul style=&quot;font-size:12.5px;opacity:.9;line-height:1.8;margin:0;padding-left:18px;&quot;&gt;
+        &lt;li&gt;Portada con título llamativo&lt;/li&gt;
+        &lt;li&gt;Datos sobre enfermedades transmitidas&lt;/li&gt;
+        &lt;li&gt;Normativa y multas del municipio&lt;/li&gt;
+        &lt;li&gt;Impacto ambiental cuando llueve&lt;/li&gt;
+        &lt;li&gt;Propuestas ciudadanas&lt;/li&gt;
+        &lt;li&gt;Fuentes de imágenes y datos&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;!-- GENIALLY --&gt;
+    &lt;div style=&quot;background:linear-gradient(135deg,#880e4f,#ad1457);border-radius:12px;padding:24px;color:#fff;&quot;&gt;
+      &lt;h3 style=&quot;font-size:18px;font-weight:900;margin:0 0 10px;&quot;&gt;✨ Opción B — Genially (Misión Extra)&lt;/h3&gt;
+      &lt;p style=&quot;font-size:13px;opacity:.92;line-height:1.7;margin:0 0 14px;&quot;&gt;Para equipos que quieran ir más allá. Genially permite añadir &lt;em&gt;pop-ups&lt;/em&gt; con datos curiosos, vídeos sobre higiene urbana, mapas y animaciones.&lt;/p&gt;
+      &lt;div style=&quot;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);display:inline-block;padding:6px 14px;border-radius:18px;font-size:12px;font-weight:700;margin:0 6px 14px 0;&quot;&gt;✨ Genially&lt;/div&gt;
+      &lt;div style=&quot;background:#f9a825;color:#3e2000;display:inline-block;padding:6px 14px;border-radius:18px;font-size:12px;font-weight:700;margin-bottom:14px;&quot;&gt;♿ Opción DUA&lt;/div&gt;
+      &lt;hr style=&quot;border-color:rgba(255,255,255,.2);margin:14px 0;&quot;&gt;
+      &lt;p style=&quot;font-size:12.5px;opacity:.88;line-height:1.6;margin:0;&quot;&gt;Esta opción favorece la expresión múltiple (principio DUA). El alumnado con mayor autonomía digital puede ampliar su investigación con elementos interactivos y narrativos.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- JUSTIFICACIÓN DE LA HERRAMIENTA --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#4a148c;margin:0 0 12px;&quot;&gt;📝 ¿Por qué hemos elegido Canva?&lt;/h3&gt;
+    &lt;div style=&quot;display:grid;grid-template-columns:1fr 1fr;gap:10px;&quot;&gt;
+      &lt;div style=&quot;padding:12px;background:#ede7f6;border-radius:8px;&quot;&gt;&lt;strong style=&quot;color:#4a148c;font-size:12.5px;display:block;margin-bottom:4px;&quot;&gt;🌟 Versatilidad y profesionalidad&lt;/strong&gt;&lt;span style=&quot;font-size:12px;color:#444;line-height:1.5;&quot;&gt;Al ser un proyecto ApS, el producto tiene utilidad real fuera del aula. Canva permite crear materiales con acabado profesional.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#ede7f6;border-radius:8px;&quot;&gt;&lt;strong style=&quot;color:#4a148c;font-size:12.5px;display:block;margin-bottom:4px;&quot;&gt;💻 Trabajo colaborativo&lt;/strong&gt;&lt;span style=&quot;font-size:12px;color:#444;line-height:1.5;&quot;&gt;Al ser online, permite que varios alumnos editen la misma infografía de forma simultánea desde las tablets del aula.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#ede7f6;border-radius:8px;&quot;&gt;&lt;strong style=&quot;color:#4a148c;font-size:12.5px;display:block;margin-bottom:4px;&quot;&gt;♿ Accesibilidad (DUA)&lt;/strong&gt;&lt;span style=&quot;font-size:12px;color:#444;line-height:1.5;&quot;&gt;Las plantillas con jerarquías visuales ya definidas ayudan al alumnado con dificultades de organización a estructurar información.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#ede7f6;border-radius:8px;&quot;&gt;&lt;strong style=&quot;color:#4a148c;font-size:12.5px;display:block;margin-bottom:4px;&quot;&gt;📱 Competencia Digital&lt;/strong&gt;&lt;span style=&quot;font-size:12px;color:#444;line-height:1.5;&quot;&gt;El alumnado aprende a seleccionar imágenes con licencias adecuadas y a entender el impacto de la comunicación digital.&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- EXPOSICIÓN ORAL --&gt;
+  &lt;div style=&quot;background:#e8f5e9;border-left:4px solid #43a047;border-radius:8px;padding:16px 18px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:14px;font-weight:800;color:#1b5e20;margin:0 0 8px;&quot;&gt;🎤 La exposición oral&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#444;margin:0;line-height:1.6;&quot;&gt;Cada equipo presentará su trabajo en una exposición de &lt;strong&gt;5-7 minutos&lt;/strong&gt;. Deberéis explicar qué problema detectasteis, qué aprendisteis y qué propuestas hacéis. Los compañeros podrán preguntar, así que dominad bien vuestro tema. &lt;strong&gt;Consejo: no leáis la pantalla.&lt;/strong&gt; Si lo habéis investigado bien, sabréis explicarlo con vuestras propias palabras.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+
+ 
+&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#004d40,#00695c);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#80cbc4;color:#002b26;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🔬 Curación de contenidos&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;Paneles de Investigación&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Aquí encontraréis todos los recursos necesarios para vuestra misión, organizados y verificados. Para el alumnado: fuentes seguras. Para el profesorado: herramientas pedagógicas.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- PANEL ALUMNADO - SYMBALOO --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#004d40;margin:0 0 8px;&quot;&gt;🎓 Panel del Alumnado — Recopilación de recursos de investigación&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 6px;line-height:1.6;&quot;&gt;Panel creado en &lt;strong&gt;Symbaloo&lt;/strong&gt; con recursos seleccionados especialmente para vosotros: webs fiables, herramientas de creación y espacios de búsqueda guiada sobre alimentación saludable y civismo.&lt;/p&gt;
+    &lt;p style=&quot;font-size:12px;color:#888;margin:0 0 14px;font-style:italic;&quot;&gt;📌 Recursos de curación — Tarea 5.1 · Daniel Vallejo · CC BY-SA 4.0&lt;/p&gt;
+    &lt;div style=&quot;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://www.symbaloo.com/embed/AAAAAfdm7dwAA41-5EYPkQ==&quot; frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;500&quot; style=&quot;display:block;&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;margin-top:12px;text-align:center;&quot;&gt;
+      &lt;a href=&quot;https://www.symbaloo.com/shared/AAAAAfdm7dwAA41-5EYPkQ==&quot; target=&quot;_blank&quot; style=&quot;display:inline-block;background:#004d40;color:#fff;padding:8px 20px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none;&quot;&gt;🔗 Abrir panel en pantalla completa&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- PANEL DOCENTE - PADLET --&gt;
+  &lt;div style=&quot;background:#e8eaf6;border:2px dashed #5c6bc0;border-radius:10px;padding:22px 24px;margin-bottom:0;&quot;&gt;
+    &lt;div style=&quot;font-size:10.5px;font-weight:800;color:#3949ab;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;&quot;&gt;🔒 Solo para el profesorado&lt;/div&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#283593;margin:0 0 8px;&quot;&gt;📌 Caja de Herramientas del Profe — Padlet docente&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#333;margin:0 0 14px;line-height:1.6;&quot;&gt;Panel de recursos pedagógicos del docente, organizado en &lt;strong&gt;Padlet&lt;/strong&gt;. Incluye herramientas de gestión de aula, creación de contenidos, seguimiento del aprendizaje, normativa educativa (Decreto 101/2023, LOMLOE, DigCompEdu) y materiales de evaluación editables.&lt;/p&gt;
+    &lt;div style=&quot;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://padlet.com/embed/zuks1ee0z3vyhrb6&quot; frameborder=&quot;0&quot; allow=&quot;camera;microphone;geolocation&quot; width=&quot;100%&quot; height=&quot;500&quot; style=&quot;display:block;&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;margin-top:12px;text-align:center;&quot;&gt;
+      &lt;a href=&quot;https://padlet.com/dvalmar118/dani-vallejo-zuks1ee0z3vyhrb6&quot; target=&quot;_blank&quot; style=&quot;display:inline-block;background:#3949ab;color:#fff;padding:8px 20px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none;&quot;&gt;🔗 Abrir Padlet en pantalla completa&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;
+ 
+ 
+HOJA DE RUTA DEL PROYECTO
+(Tarea 7.1 — Línea temporal)
+
+ 
+&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#bf360c,#e64a19);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#ffcc80;color:#4a1900;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🗺️ Planificación&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;La hoja de ruta de la misión&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Toda investigación seria necesita un plan. A continuación encontraréis el mapa completo del proyecto: qué haréis en cada fase y cuánto tiempo tenéis.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- LÍNEA TEMPORAL CANVA --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#bf360c;margin:0 0 8px;&quot;&gt;📅 Línea temporal interactiva del proyecto&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 6px;line-height:1.6;&quot;&gt;Visualización cronológica de todas las actividades del proyecto, elaborada con &lt;strong&gt;Canva&lt;/strong&gt;. Cada fase está representada con sus actividades, tiempos y herramientas asociadas.&lt;/p&gt;
+    &lt;p style=&quot;font-size:12px;color:#888;margin:0 0 14px;font-style:italic;&quot;&gt;📌 Tarea 7.1 · Daniel Vallejo · CC BY-SA 4.0&lt;/p&gt;
+    &lt;div style=&quot;position:relative;width:100%;padding-bottom:56.25%;height:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe loading=&quot;lazy&quot; style=&quot;position:absolute;width:100%;height:100%;top:0;left:0;border:none;padding:0;margin:0;&quot; src=&quot;https://www.canva.com/design/DAHI08riuu4/CKTaYbOfUuNmaVSyGUjWgA/view?embed&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;margin-top:12px;text-align:center;&quot;&gt;
+      &lt;a href=&quot;https://www.canva.com/design/DAHI08riuu4/CKTaYbOfUuNmaVSyGUjWgA/view&quot; target=&quot;_blank&quot; style=&quot;display:inline-block;background:#bf360c;color:#fff;padding:8px 20px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none;&quot;&gt;🔗 Abrir línea temporal en Canva&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- RESUMEN DE FASES --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#bf360c;margin:0 0 14px;&quot;&gt;📋 Resumen de las 5 fases&lt;/h3&gt;
+    &lt;div style=&quot;display:flex;flex-direction:column;gap:10px;&quot;&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:12px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;&lt;div style=&quot;background:#0d47a1;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:800;white-space:nowrap;flex-shrink:0;&quot;&gt;FASE 1&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;color:#333;font-size:13px;&quot;&gt;🔎 Detección del problema&lt;/strong&gt; &lt;span style=&quot;color:#888;font-size:11.5px;&quot;&gt;(Semana 1 · 2 sesiones)&lt;/span&gt;&lt;p style=&quot;font-size:12.5px;color:#555;margin:3px 0 0;line-height:1.5;&quot;&gt;Observamos el entorno, debatimos, formamos equipos y elegimos el enfoque de cada grupo.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:12px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;&lt;div style=&quot;background:#1565c0;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:800;white-space:nowrap;flex-shrink:0;&quot;&gt;FASE 2&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;color:#333;font-size:13px;&quot;&gt;📊 Investigación y análisis&lt;/strong&gt; &lt;span style=&quot;color:#888;font-size:11.5px;&quot;&gt;(Semanas 1-2 · 3 sesiones)&lt;/span&gt;&lt;p style=&quot;font-size:12.5px;color:#555;margin:3px 0 0;line-height:1.5;&quot;&gt;Buscamos información en las fuentes del Panel, contrastamos datos y citamos todas las fuentes.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:12px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;&lt;div style=&quot;background:#4a148c;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:800;white-space:nowrap;flex-shrink:0;&quot;&gt;FASE 3&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;color:#333;font-size:13px;&quot;&gt;🎨 Diseño de la campaña&lt;/strong&gt; &lt;span style=&quot;color:#888;font-size:11.5px;&quot;&gt;(Semanas 3-4 · 4 sesiones)&lt;/span&gt;&lt;p style=&quot;font-size:12.5px;color:#555;margin:3px 0 0;line-height:1.5;&quot;&gt;Creamos la infografía en Canva o la presentación en Genially. Cada miembro tiene un rol: coordinador/a, diseñador/a, redactor/a, documentalista.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:12px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;&lt;div style=&quot;background:#1b5e20;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:800;white-space:nowrap;flex-shrink:0;&quot;&gt;FASE 4&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;color:#333;font-size:13px;&quot;&gt;🎤 Exposición y coevaluación&lt;/strong&gt; &lt;span style=&quot;color:#888;font-size:11.5px;&quot;&gt;(Semana 5 · 2 sesiones)&lt;/span&gt;&lt;p style=&quot;font-size:12.5px;color:#555;margin:3px 0 0;line-height:1.5;&quot;&gt;Presentamos el trabajo al resto de la clase. Los compañeros evalúan con lista de cotejo. El docente aplica la rúbrica.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:12px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;&lt;div style=&quot;background:#bf360c;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:800;white-space:nowrap;flex-shrink:0;&quot;&gt;FASE 5&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;color:#333;font-size:13px;&quot;&gt;📢 Difusión de la campaña&lt;/strong&gt; &lt;span style=&quot;color:#888;font-size:11.5px;&quot;&gt;(Semana 5 · 1 sesión)&lt;/span&gt;&lt;p style=&quot;font-size:12.5px;color:#555;margin:3px 0 0;line-height:1.5;&quot;&gt;Los mejores trabajos se publican en el tablón digital del centro. Cerramos con reflexión colectiva sobre el aprendizaje.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;
+ 
+ 
+
+
+ 
+&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#37474f,#546e7a);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#b0bec5;color:#1a2327;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;📘 Uso docente&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;Guía Didáctica&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Documento de orientación pedagógica para el profesorado. Incluye la relación entre tareas, criterios de evaluación y orientaciones metodológicas basadas en el Decreto 101/2023 y el marco DigCompEdu.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- AVISO DOCENTE --&gt;
+  &lt;div style=&quot;background:#e8eaf6;border:2px dashed #5c6bc0;border-radius:8px;padding:16px 20px;margin-bottom:22px;&quot;&gt;
+    &lt;div style=&quot;font-size:10.5px;font-weight:800;color:#3949ab;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;&quot;&gt;🔒 Para el profesorado&lt;/div&gt;
+    &lt;p style=&quot;font-size:13px;color:#333;margin:0;line-height:1.7;&quot;&gt;Esta guía facilita la aplicación del proyecto a cualquier maestro o maestra de 6.º de Primaria en Andalucía. Sigue el marco curricular del Decreto 101/2023, los principios DUA y el marco DigCompEdu.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- TABLA CRITERIOS - Drive embed --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#37474f;margin:0 0 8px;&quot;&gt;📊 Tabla: Tareas del proyecto y criterios de evaluación&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 6px;line-height:1.6;&quot;&gt;Documento elaborado en la Tarea 6.1 que relaciona cada actividad del proyecto con los criterios de evaluación del currículo andaluz (Decreto 101/2023) y los descriptores de la competencia digital (DigCompEdu).&lt;/p&gt;
+    &lt;p style=&quot;font-size:12px;color:#888;margin:0 0 14px;font-style:italic;&quot;&gt;📌 Tarea 6.1 · Daniel Vallejo · CC BY-SA 4.0&lt;/p&gt;
+    &lt;div style=&quot;position:relative;width:100%;padding-bottom:75%;height:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://drive.google.com/file/d/1vftyJob4aomIzLnCaC1cxwsAZhfyYZsZ/preview&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;border:0;&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- DATOS GENERALES --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#37474f;margin:0 0 14px;&quot;&gt;ℹ️ Información general del proyecto&lt;/h3&gt;
+    &lt;div style=&quot;display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:13px;&quot;&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Etapa:&lt;/span&gt; &lt;strong&gt;Educación Primaria&lt;/strong&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Curso:&lt;/span&gt; &lt;strong&gt;6.º (11-12 años)&lt;/strong&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Metodología:&lt;/span&gt; &lt;strong&gt;ABP + DUA + Cooperativo&lt;/strong&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Duración:&lt;/span&gt; &lt;strong&gt;5 semanas (~12 sesiones)&lt;/strong&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Normativa:&lt;/span&gt; &lt;strong&gt;Decreto 101/2023 · LOMLOE&lt;/strong&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Marco digital:&lt;/span&gt; &lt;strong&gt;DigCompEdu&lt;/strong&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- ORIENTACIONES METODOLÓGICAS --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#37474f;margin:0 0 12px;&quot;&gt;💡 Orientaciones metodológicas&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13.5px;line-height:1.75;margin-bottom:11px;color:#444;&quot;&gt;Este proyecto aplica la metodología de &lt;strong&gt;Aprendizaje Basado en Proyectos (ABP)&lt;/strong&gt; con trabajo cooperativo en grupos heterogéneos. El rol del docente es de guía y acompañante: facilita el acceso a recursos y proporciona retroalimentación formativa.&lt;/p&gt;
+    &lt;p style=&quot;font-size:13.5px;line-height:1.75;margin-bottom:11px;color:#444;&quot;&gt;Se recomienda configurar los grupos de manera &lt;strong&gt;heterogénea&lt;/strong&gt; en cuanto a competencia digital. El alumnado más hábil con las herramientas apoya a los compañeros, consolidando su propio aprendizaje mediante la enseñanza entre iguales.&lt;/p&gt;
+    &lt;div style=&quot;background:#e3f2fd;border-left:4px solid #1976d2;border-radius:6px;padding:12px 16px;font-size:12.5px;color:#0d2a47;line-height:1.6;&quot;&gt;
+      &lt;strong&gt;⚠️ Protección de datos:&lt;/strong&gt; Antes de iniciar el proyecto, el docente verificará que el alumnado está registrado en Canva for Education según el protocolo del centro y con consentimiento familiar, conforme al RGPD y a la normativa de la Junta de Andalucía.
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;
+ 
+
+
+ 
+&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#1b5e20,#2e7d32);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#a5d6a7;color:#1b3a1d;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;📋 Evaluación&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;¿Cómo se va a evaluar vuestro trabajo?&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;La evaluación tiene en cuenta cómo habéis trabajado durante todo el proceso: el producto final, la exposición, la investigación y vuestra propia reflexión.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- INSTRUMENTOS --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1b5e20;margin:0 0 14px;&quot;&gt;🛠️ Tres instrumentos de evaluación&lt;/h3&gt;
+    &lt;div style=&quot;display:flex;flex-direction:column;gap:12px;&quot;&gt;
+      &lt;div style=&quot;padding:16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;strong style=&quot;color:#1b5e20;font-size:14px;display:block;margin-bottom:6px;&quot;&gt;📓 Instrumento 1: Cuaderno Séneca (Evaluación oficial)&lt;/strong&gt;
+        &lt;p style=&quot;font-size:12.5px;color:#444;margin:0;line-height:1.6;&quot;&gt;Es el eje vertebrador de la evaluación diaria. Vincula directamente los criterios de evaluación con las Competencias Específicas y los Descriptores Operativos. Permite automatizar la ponderación y generar el perfil competencial del alumnado de forma transparente para familias y equipo docente.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;padding:16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;strong style=&quot;color:#1b5e20;font-size:14px;display:block;margin-bottom:6px;&quot;&gt;📊 Instrumento 2: Rúbrica de Registro Diario&lt;/strong&gt;
+        &lt;p style=&quot;font-size:12.5px;color:#444;margin:0;line-height:1.6;&quot;&gt;Sirve de puente entre el trabajo en el aula y la calificación oficial. Utilizo una tabla de seguimiento donde cada columna representa una evidencia de aprendizaje (Infografía, Expresión Oral, Uso de Canva, etc.). Si detecto una puntuación baja, puedo intervenir antes de cerrar la unidad.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;padding:16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;strong style=&quot;color:#1b5e20;font-size:14px;display:block;margin-bottom:6px;&quot;&gt;🪞 Instrumento 3: Rúbrica de Autoevaluación del alumnado&lt;/strong&gt;
+        &lt;p style=&quot;font-size:12.5px;color:#444;margin:0;line-height:1.6;&quot;&gt;El alumnado valora su participación, interés, respeto y trabajo en grupo mediante cuatro niveles (Poco logrado, Mejorable, Bastante bien, Muy bien). Los resultados se contrastan con el Registro Diario para validar si la percepción del alumno coincide con las evidencias observadas.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- RÚBRICA DEL PRODUCTO DIGITAL --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1b5e20;margin:0 0 12px;&quot;&gt;📏 Rúbrica del producto digital&lt;/h3&gt;
+    &lt;div style=&quot;overflow-x:auto;&quot;&gt;
+      &lt;table style=&quot;width:100%;border-collapse:collapse;font-size:12px;&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;&lt;th style=&quot;background:#37474f;color:#fff;padding:9px 12px;text-align:left;font-weight:700;width:20%;&quot;&gt;Criterio&lt;/th&gt;&lt;th style=&quot;background:#37474f;color:#fff;padding:9px 12px;text-align:left;width:20%;&quot;&gt;Iniciado (1)&lt;/th&gt;&lt;th style=&quot;background:#37474f;color:#fff;padding:9px 12px;text-align:left;width:20%;&quot;&gt;En proceso (2)&lt;/th&gt;&lt;th style=&quot;background:#37474f;color:#fff;padding:9px 12px;text-align:left;width:20%;&quot;&gt;Conseguido (3)&lt;/th&gt;&lt;th style=&quot;background:#37474f;color:#fff;padding:9px 12px;text-align:left;width:20%;&quot;&gt;Excelente (4)&lt;/th&gt;&lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#f5f5f5;font-weight:600;&quot;&gt;📊 Contenido y rigor&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#ffebee;color:#b71c1c;font-weight:700;text-align:center;&quot;&gt;Escaso o sin contrastar&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#fff8e1;color:#6d4c00;font-weight:700;text-align:center;&quot;&gt;Relevante pero sin citar fuentes&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e8f5e9;color:#1b5e20;font-weight:700;text-align:center;&quot;&gt;Correcto, contrastado y citado&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e3f2fd;color:#0d47a1;font-weight:700;text-align:center;&quot;&gt;Riguroso, multifuente e integrado&lt;/td&gt;&lt;/tr&gt;
+          &lt;tr&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#f5f5f5;font-weight:600;&quot;&gt;🎨 Diseño y creatividad&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#ffebee;color:#b71c1c;font-weight:700;text-align:center;&quot;&gt;Confuso, sin jerarquía&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#fff8e1;color:#6d4c00;font-weight:700;text-align:center;&quot;&gt;Funcional pero básico&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e8f5e9;color:#1b5e20;font-weight:700;text-align:center;&quot;&gt;Limpio, atractivo y claro&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e3f2fd;color:#0d47a1;font-weight:700;text-align:center;&quot;&gt;Original, coherente e impactante&lt;/td&gt;&lt;/tr&gt;
+          &lt;tr&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#f5f5f5;font-weight:600;&quot;&gt;©️ Derechos de autor&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#ffebee;color:#b71c1c;font-weight:700;text-align:center;&quot;&gt;Sin fuente ni licencia&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#fff8e1;color:#6d4c00;font-weight:700;text-align:center;&quot;&gt;Alguna fuente pero incompleto&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e8f5e9;color:#1b5e20;font-weight:700;text-align:center;&quot;&gt;Bancos libres, autor y fuente citados&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e3f2fd;color:#0d47a1;font-weight:700;text-align:center;&quot;&gt;Todo documentado con autor, fuente y licencia CC&lt;/td&gt;&lt;/tr&gt;
+          &lt;tr&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#f5f5f5;font-weight:600;&quot;&gt;🤝 Trabajo en equipo&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#ffebee;color:#b71c1c;font-weight:700;text-align:center;&quot;&gt;Solo 1-2 miembros activos&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#fff8e1;color:#6d4c00;font-weight:700;text-align:center;&quot;&gt;Mayoría participa pero desigual&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e8f5e9;color:#1b5e20;font-weight:700;text-align:center;&quot;&gt;Todos participan, roles definidos&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e3f2fd;color:#0d47a1;font-weight:700;text-align:center;&quot;&gt;Colaboración excelente y apoyo mutuo constante&lt;/td&gt;&lt;/tr&gt;
+          &lt;tr&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#f5f5f5;font-weight:600;&quot;&gt;💻 Uso de la herramienta&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#ffebee;color:#b71c1c;font-weight:700;text-align:center;&quot;&gt;Muy limitado o con errores&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#fff8e1;color:#6d4c00;font-weight:700;text-align:center;&quot;&gt;Correcto pero sin aprovechar&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e8f5e9;color:#1b5e20;font-weight:700;text-align:center;&quot;&gt;Con soltura y funciones principales&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e3f2fd;color:#0d47a1;font-weight:700;text-align:center;&quot;&gt;Uso experto incluyendo funciones avanzadas&lt;/td&gt;&lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- PONDERACIÓN --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1b5e20;margin:0 0 14px;&quot;&gt;⚖️ Distribución de la calificación&lt;/h3&gt;
+    &lt;div style=&quot;display:flex;flex-direction:column;gap:10px;&quot;&gt;
+      &lt;div&gt;&lt;div style=&quot;display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;&quot;&gt;&lt;span&gt;Producto digital (Infografía / Genially)&lt;/span&gt;&lt;strong style=&quot;color:#0d47a1;&quot;&gt;40%&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;&quot;&gt;&lt;div style=&quot;height:100%;width:40%;background:#1976d2;border-radius:4px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;div style=&quot;display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;&quot;&gt;&lt;span&gt;Exposición oral&lt;/span&gt;&lt;strong style=&quot;color:#0d47a1;&quot;&gt;25%&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;&quot;&gt;&lt;div style=&quot;height:100%;width:25%;background:#43a047;border-radius:4px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;div style=&quot;display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;&quot;&gt;&lt;span&gt;Proceso e investigación&lt;/span&gt;&lt;strong style=&quot;color:#0d47a1;&quot;&gt;20%&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;&quot;&gt;&lt;div style=&quot;height:100%;width:20%;background:#f9a825;border-radius:4px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;div style=&quot;display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;&quot;&gt;&lt;span&gt;Autoevaluación y coevaluación&lt;/span&gt;&lt;strong style=&quot;color:#0d47a1;&quot;&gt;15%&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;&quot;&gt;&lt;div style=&quot;height:100%;width:15%;background:#ce93d8;border-radius:4px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;
+ 
+
+
+ 
+&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#0a2e6e,#062050);border-radius:12px;padding:38px;text-align:center;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;font-size:52px;margin-bottom:14px;&quot;&gt;🐾&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:24px;font-weight:900;margin:0 0 7px;&quot;&gt;Créditos y autoría&lt;/h2&gt;
+    &lt;p style=&quot;opacity:.85;font-size:13.5px;max-width:480px;margin:0 auto 16px;&quot;&gt;Información sobre la autoría, condiciones de uso y descarga del archivo fuente para que puedas adaptarlo a tu aula.&lt;/p&gt;
+    &lt;div style=&quot;display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.28);border-radius:20px;padding:7px 18px;font-size:13px;font-weight:600;&quot;&gt;
+      ⓒ Creative Commons BY-SA 4.0
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;div style=&quot;display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;&quot;&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;h3 style=&quot;font-size:15px;font-weight:800;color:#0d47a1;margin:0 0 14px;&quot;&gt;👤 Autoría del recurso&lt;/h3&gt;
+      &lt;table style=&quot;width:100%;font-size:13px;border-collapse:collapse;&quot;&gt;
+        &lt;tr&gt;&lt;td style=&quot;padding:7px 0;color:#777;width:40%;&quot;&gt;Autor&lt;/td&gt;&lt;td style=&quot;font-weight:700;color:#0d47a1;padding:7px 0;&quot;&gt;Daniel Vallejo&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Centro&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;[CEIP BACHILLER PÉREZ DE MOYA]&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Localidad&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;[Santisteban del Puerto (Jaén)], Andalucía&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Curso&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;2025-2026&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Nivel&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;6.º Educación Primaria&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Formación&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;Curso CDD B2 — CEP Andalucía&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Licencia&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.es&quot; target=&quot;_blank&quot; style=&quot;color:#0d47a1;&quot;&gt;CC BY-SA 4.0&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;h3 style=&quot;font-size:15px;font-weight:800;color:#0d47a1;margin:0 0 12px;&quot;&gt;📄 Descripción del recurso&lt;/h3&gt;
+      &lt;p style=&quot;font-size:13px;line-height:1.75;margin-bottom:10px;color:#444;&quot;&gt;&lt;strong&gt;«Civismo en marcha: Mi ciudad limpia de excrementos»&lt;/strong&gt; es una Situación de Aprendizaje basada en ABP para 6.º de Primaria. Aborda el problema cívico de los excrementos caninos en el entorno urbano desde un enfoque interdisciplinar.&lt;/p&gt;
+      &lt;p style=&quot;font-size:13px;line-height:1.75;color:#444;&quot;&gt;El alumnado, como &lt;em&gt;Agentes de Civismo Digital&lt;/em&gt;, investiga el impacto, crea una campaña con Canva o Genially y la difunde en la comunidad educativa. Sigue los principios DUA y el marco DigCompEdu.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;div style=&quot;background:#e8f5e9;border-left:4px solid #43a047;border-radius:10px;padding:22px 24px;margin-bottom:16px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:15px;font-weight:800;color:#1b5e20;margin:0 0 12px;&quot;&gt;⚖️ Condiciones de uso — CC BY-SA 4.0&lt;/h3&gt;
+    &lt;div style=&quot;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;&quot;&gt;
+      &lt;div style=&quot;text-align:center;padding:14px;background:#fff;border-radius:8px;&quot;&gt;&lt;div style=&quot;font-size:22px;margin-bottom:6px;&quot;&gt;✅&lt;/div&gt;&lt;div style=&quot;font-weight:700;color:#1b5e20;font-size:12.5px;&quot;&gt;Compartir&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;color:#555;margin-top:4px;&quot;&gt;Copia y redistribuye en cualquier medio o formato.&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;text-align:center;padding:14px;background:#fff;border-radius:8px;&quot;&gt;&lt;div style=&quot;font-size:22px;margin-bottom:6px;&quot;&gt;🔧&lt;/div&gt;&lt;div style=&quot;font-weight:700;color:#1b5e20;font-size:12.5px;&quot;&gt;Adaptar&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;color:#555;margin-top:4px;&quot;&gt;Remezcla y adapta el material para tu aula.&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;text-align:center;padding:14px;background:#fff;border-radius:8px;&quot;&gt;&lt;div style=&quot;font-size:22px;margin-bottom:6px;&quot;&gt;⚠️&lt;/div&gt;&lt;div style=&quot;font-weight:700;color:#6d4c00;font-size:12.5px;&quot;&gt;Condiciones&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;color:#555;margin-top:4px;&quot;&gt;Cita a Daniel Vallejo y comparte con la misma licencia.&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;text-align:center;&quot;&gt;
+    &lt;h3 style=&quot;font-size:15px;font-weight:800;color:#0d47a1;margin:0 0 8px;&quot;&gt;⬇️ Descarga el archivo editable&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#666;margin:0 auto 16px;max-width:500px;line-height:1.7;&quot;&gt;¿Quieres adaptar este proyecto? Descarga el archivo fuente &lt;strong&gt;.elpx&lt;/strong&gt; y ábrelo con eXeLearning 3 (gratuito) para modificar cualquier sección.&lt;/p&gt;
+    &lt;!-- NOTA: Sustituye el href=&quot;#&quot; por el enlace real al archivo .elpx en Drive o GitHub --&gt;
+    &lt;a href=&quot;#&quot; style=&quot;display:inline-flex;align-items:center;gap:9px;background:#f9a825;color:#3e2000;padding:12px 28px;border-radius:28px;font-size:14px;font-weight:800;text-decoration:none;&quot;&gt;
+      ⬇️ Descargar archivo .elpx
+    &lt;https://drive.google.com/file/d/1jqw8WrhfJyWNwBC1Iv2GTtM3fIQ8GXbo/view?usp=drive_link&gt;
+    &lt;p style=&quot;font-size:11.5px;color:#999;margin-top:12px;&quot;&gt;Requiere &lt;a href=&quot;https://exelearning.net&quot; target=&quot;_blank&quot; style=&quot;color:#0d47a1;&quot;&gt;eXeLearning 3&lt;/a&gt; — software libre y gratuito&lt;/p&gt;
+    &lt;hr style=&quot;border:none;border-top:1px solid #eee;margin:18px 0;&quot;&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin-bottom:8px;&quot;&gt;📡 Este recurso también está disponible en:&lt;/p&gt;
+    &lt;a href=&quot;#&quot; style=&quot;color:#0d47a1;font-weight:700;font-size:13px;&quot;&gt;🌐 [Enlace a GitHub Pages — añadir tras publicar]&lt;/a&gt;
+    &lt;br&gt;&lt;br&gt;
+    &lt;div style=&quot;background:#e3f2fd;border-radius:8px;padding:14px 16px;text-align:left;font-size:13px;color:#0d2a47;&quot;&gt;
+      &lt;strong&gt;💬 Para el profesorado que llegue hasta aquí:&lt;/strong&gt; Este proyecto nace de la reflexión sobre la práctica docente real. Si lo utilizáis o mejoráis, estaré encantado de conocer vuestra experiencia. Compartir es la mejor forma de mejorar la educación. — &lt;em&gt;Daniel Vallejo&lt;/em&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;
+ </value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>page-mp2ljcdt-32ewpomey</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Bienvenidos</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Bienvenidos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Bienvenidos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Bienvenidos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value>BIENVENIDOS</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value>&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;!-- HERO --&gt;
+  &lt;div style=&quot;background:linear-gradient(135deg,#0a2e6e,#1565c0);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;position:relative;overflow:hidden;&quot;&gt;
+    &lt;div style=&quot;background:#ffca28;color:#3e2000;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🕵️ Misión Ciudadana&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;¡Bienvenidos, Agentes de Civismo Digital!&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Vuestra ciudad tiene un problema real: los excrementos de perro en las aceras afectan a la salud y a la convivencia. Os necesitamos para investigarlo, crear una campaña y hacer que las cosas cambien de verdad.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- PREGUNTA MOTRIZ --&gt;
+  &lt;div style=&quot;background:linear-gradient(135deg,#fff8e1,#fff3cd);border-left:5px solid #f9a825;border-radius:10px;padding:20px 24px;margin-bottom:22px;&quot;&gt;
+    &lt;p style=&quot;font-size:13px;color:#6d4c00;font-weight:700;margin:0 0 8px;&quot;&gt;❓ La pregunta que guía todo nuestro trabajo&lt;/p&gt;
+    &lt;p style=&quot;font-size:16px;color:#4a3000;font-weight:700;line-height:1.5;margin:0;&quot;&gt;&quot;¿Cómo podemos informar y concienciar a nuestra comunidad sobre el impacto de los excrementos caninos en la salud pública y la convivencia, usando las herramientas digitales a nuestro alcance?&quot;&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- CUATRO FASES --&gt;
+  &lt;div style=&quot;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px;&quot;&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:18px 14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;div style=&quot;font-size:32px;margin-bottom:8px;&quot;&gt;🔍&lt;/div&gt;
+      &lt;div style=&quot;font-weight:800;color:#0d47a1;font-size:13px;margin-bottom:5px;&quot;&gt;Investigáis&lt;/div&gt;
+      &lt;div style=&quot;font-size:12px;color:#666;line-height:1.5;&quot;&gt;Buscáis datos reales sobre el impacto sanitario y legal.&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:18px 14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;div style=&quot;font-size:32px;margin-bottom:8px;&quot;&gt;📊&lt;/div&gt;
+      &lt;div style=&quot;font-weight:800;color:#0d47a1;font-size:13px;margin-bottom:5px;&quot;&gt;Analizáis&lt;/div&gt;
+      &lt;div style=&quot;font-size:12px;color:#666;line-height:1.5;&quot;&gt;Estudiais ordenanzas, multas y enfermedades con fuentes fiables.&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:18px 14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;div style=&quot;font-size:32px;margin-bottom:8px;&quot;&gt;🎨&lt;/div&gt;
+      &lt;div style=&quot;font-weight:800;color:#0d47a1;font-size:13px;margin-bottom:5px;&quot;&gt;Creáis&lt;/div&gt;
+      &lt;div style=&quot;font-size:12px;color:#666;line-height:1.5;&quot;&gt;Diseñáis una infografía en Canva o presentación en Genially.&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:18px 14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;div style=&quot;font-size:32px;margin-bottom:8px;&quot;&gt;📢&lt;/div&gt;
+      &lt;div style=&quot;font-weight:800;color:#0d47a1;font-size:13px;margin-bottom:5px;&quot;&gt;Difundís&lt;/div&gt;
+      &lt;div style=&quot;font-size:12px;color:#666;line-height:1.5;&quot;&gt;Lanzáis vuestra campaña a toda la comunidad educativa.&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- PRESENTACIÓN DEL PROYECTO (Drive embed) --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#0d47a1;margin:0 0 12px;&quot;&gt;📄 Presentación completa del proyecto&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 14px;line-height:1.6;&quot;&gt;A continuación podéis ver la descripción completa de la Situación de Aprendizaje: objetivos, competencias, metodología y estructura general del proyecto.&lt;/p&gt;
+    &lt;div style=&quot;position:relative;width:100%;padding-bottom:56.25%;height:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://drive.google.com/file/d/16bZj-xXsrfzzdY0mHAqmYydA7RG6EHNO/preview&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;border:0;&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- COMPETENCIAS --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#0d47a1;margin:0 0 14px;&quot;&gt;🎓 Competencias clave que trabajamos&lt;/h3&gt;
+    &lt;div style=&quot;display:grid;grid-template-columns:1fr 1fr;gap:10px;&quot;&gt;
+      &lt;div style=&quot;padding:12px;background:#e3f2fd;border-radius:8px;font-size:12.5px;&quot;&gt;&lt;strong style=&quot;color:#0d47a1;&quot;&gt;💻 Competencia Digital (CD)&lt;/strong&gt;&lt;br&gt;&lt;span style=&quot;color:#444;&quot;&gt;Búsqueda de información, creación de contenido y ciudadanía digital.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#e8f5e9;border-radius:8px;font-size:12.5px;&quot;&gt;&lt;strong style=&quot;color:#1b5e20;&quot;&gt;🏛️ Competencia Ciudadana (CC)&lt;/strong&gt;&lt;br&gt;&lt;span style=&quot;color:#444;&quot;&gt;Civismo, convivencia, derechos y deberes en la comunidad.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#fff8e1;border-radius:8px;font-size:12.5px;&quot;&gt;&lt;strong style=&quot;color:#6d4c00;&quot;&gt;📖 Comunicación Lingüística (CCL)&lt;/strong&gt;&lt;br&gt;&lt;span style=&quot;color:#444;&quot;&gt;Expresión oral, escrita y visual. Exposición argumentada.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#fce4ec;border-radius:8px;font-size:12.5px;&quot;&gt;&lt;strong style=&quot;color:#880e4f;&quot;&gt;🤝 CPSAA&lt;/strong&gt;&lt;br&gt;&lt;span style=&quot;color:#444;&quot;&gt;Competencia personal, social y de aprender a aprender.&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;
+ 
+ 
+
+-
+ 
+&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;!-- HERO --&gt;
+ &lt;!--https://drive.google.com/file/d/10tx1fVhV6ZUKYvEjLGAsLBlCrf8MIA4k/view?usp=drive_link--&gt;
+  &lt;div style=&quot;background:linear-gradient(135deg,#1a237e,#283593);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#90caf9;color:#0d1b4e;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🛡️ Ciudadanía Digital&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;Nuestros derechos y responsabilidades en la red&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Ser un buen Agente de Civismo Digital no empieza en la calle: empieza en cómo usamos internet. Antes de investigar, conoce las reglas.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;!--https://drive.google.com/file/d/10tx1fVhV6ZUKYvEjLGAsLBlCrf8MIA4k/view?usp=drive_link--&gt;
+  &lt;!-- INFOGRAFÍA DETECTIVES DIGITALES --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1a237e;margin:0 0 8px;&quot;&gt;🕵️ Guía «Detectives Digitales» — Tarea 2.3&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 14px;line-height:1.6;&quot;&gt;Esta infografía resume las 5 normas esenciales que debéis seguir siempre que uséis internet durante el proyecto. Léela con atención: forma parte de vuestra formación como Agentes de Civismo Digital.&lt;/p&gt;
+    &lt;div style=&quot;background:#e8eaf6;border-radius:8px;padding:16px;margin-bottom:14px;border-left:4px solid #3949ab;&quot;&gt;
+      &lt;p style=&quot;font-size:12.5px;color:#3949ab;font-weight:700;margin:0 0 4px;&quot;&gt;📌 Infografía elaborada por: Daniel Vallejo · Actividad 2.3 · Licencia CC BY-SA 4.0&lt;/p&gt;
+      &lt;p style=&quot;font-size:12px;color:#444;margin:0;&quot;&gt;Imágenes procedentes de Canva (uso educativo). Diseño original del autor.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;!-- https://drive.google.com/file/d/10tx1fVhV6ZUKYvEjLGAsLBlCrf8MIA4k/view?usp=drive_link --&gt;
+    &lt;div style=&quot;position:relative;width:100%;padding-bottom:130%;height:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://drive.google.com/file/d/SUSTITUYE_POR_ID_DE_LA_INFOGRAFIA/preview&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;border:0;&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- RESUMEN DEL DECÁLOGO --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1a237e;margin:0 0 14px;&quot;&gt;📋 Las 5 reglas de oro — Resumen&lt;/h3&gt;
+    &lt;div style=&quot;display:flex;flex-direction:column;gap:10px;&quot;&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e3f2fd;border-radius:8px;border-left:4px solid #1976d2;&quot;&gt;
+        &lt;div style=&quot;background:#0d47a1;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;1&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#0d2a47;font-size:13.5px;&quot;&gt;🔒 Protege tu escudo&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Tu dirección, teléfono y contraseñas son secretos de estado. Usa siempre tu nick de detective en las herramientas digitales.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e3f2fd;border-radius:8px;border-left:4px solid #1976d2;&quot;&gt;
+        &lt;div style=&quot;background:#0d47a1;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;2&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#0d2a47;font-size:13.5px;&quot;&gt;📸 Fotos en el barrio con cuidado&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Pide permiso antes de fotografiar a personas. No publiques imágenes de vecinos o matrículas sin consentimiento.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;
+        &lt;div style=&quot;background:#f57f17;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;3&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#4a3000;font-size:13.5px;&quot;&gt;🏆 El tesoro del autor (derechos de autor)&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;El trabajo de otros tiene valor. Usa solo imágenes con licencias Creative Commons y cita siempre la fuente. Pixabay, Unsplash y Wikimedia Commons son vuestros aliados.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;div style=&quot;background:#1b5e20;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;4&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#1b3a1d;font-size:13.5px;&quot;&gt;🤝 Netiqueta y respeto&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Trata a los demás online como te gustaría que te tratasen a ti. La amabilidad es la mejor huella digital que puedes dejar.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;div style=&quot;background:#1b5e20;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;5&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#1b3a1d;font-size:13.5px;&quot;&gt;🏅 Certificado de Agente Digital&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Al aplicar estas reglas en cada sesión, demuestras que eres un verdadero Líder Cívico Digital. ¡Misión de seguridad completada!&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp2ljcdu-lnh6zk4x4</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>DERECHOS DIGITALES Y PRIVACIDAD</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>DERECHOS DIGITALES Y PRIVACIDAD</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>DERECHOS DIGITALES Y PRIVACIDAD</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>DERECHOS DIGITALES Y PRIVACIDAD</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value>DERECHOS DIGITALES</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value>&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;!-- HERO --&gt;
+  &lt;div style=&quot;background:linear-gradient(135deg,#1a237e,#283593);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#90caf9;color:#0d1b4e;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🛡️ Ciudadanía Digital&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;Nuestros derechos y responsabilidades en la red&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Ser un buen Agente de Civismo Digital no empieza en la calle: empieza en cómo usamos internet. Antes de investigar, conoce las reglas.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- INFOGRAFÍA DETECTIVES DIGITALES --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1a237e;margin:0 0 8px;&quot;&gt;🕵️ Guía «Detectives Digitales» — Tarea 2.3&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 14px;line-height:1.6;&quot;&gt;Esta infografía resume las 5 normas esenciales que debéis seguir siempre que uséis internet durante el proyecto. Léela con atención: forma parte de vuestra formación como Agentes de Civismo Digital.&lt;/p&gt;
+    &lt;div style=&quot;background:#e8eaf6;border-radius:8px;padding:16px;margin-bottom:14px;border-left:4px solid #3949ab;&quot;&gt;
+      &lt;p style=&quot;font-size:12.5px;color:#3949ab;font-weight:700;margin:0 0 4px;&quot;&gt;📌 Infografía elaborada por: Daniel Vallejo · Actividad 2.3 · Licencia CC BY-SA 4.0&lt;/p&gt;
+      &lt;p style=&quot;font-size:12px;color:#444;margin:0;&quot;&gt;Imágenes procedentes de Canva (uso educativo). Diseño original del autor.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;!-- NOTA: Sube la infografía a Google Drive y sustituye FILE_ID por el ID real del archivo --&gt;
+    &lt;!-- Ejemplo: https://drive.google.com/file/d/TU_FILE_ID_AQUI/preview --&gt;
+    &lt;div style=&quot;position:relative;width:100%;padding-bottom:130%;height:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://drive.google.com/file/d/SUSTITUYE_POR_ID_DE_LA_INFOGRAFIA/preview&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;border:0;&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- RESUMEN DEL DECÁLOGO --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1a237e;margin:0 0 14px;&quot;&gt;📋 Las 5 reglas de oro — Resumen&lt;/h3&gt;
+    &lt;div style=&quot;display:flex;flex-direction:column;gap:10px;&quot;&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e3f2fd;border-radius:8px;border-left:4px solid #1976d2;&quot;&gt;
+        &lt;div style=&quot;background:#0d47a1;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;1&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#0d2a47;font-size:13.5px;&quot;&gt;🔒 Protege tu escudo&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Tu dirección, teléfono y contraseñas son secretos de estado. Usa siempre tu nick de detective en las herramientas digitales.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e3f2fd;border-radius:8px;border-left:4px solid #1976d2;&quot;&gt;
+        &lt;div style=&quot;background:#0d47a1;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;2&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#0d2a47;font-size:13.5px;&quot;&gt;📸 Fotos en el barrio con cuidado&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Pide permiso antes de fotografiar a personas. No publiques imágenes de vecinos o matrículas sin consentimiento.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;
+        &lt;div style=&quot;background:#f57f17;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;3&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#4a3000;font-size:13.5px;&quot;&gt;🏆 El tesoro del autor (derechos de autor)&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;El trabajo de otros tiene valor. Usa solo imágenes con licencias Creative Commons y cita siempre la fuente. Pixabay, Unsplash y Wikimedia Commons son vuestros aliados.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;div style=&quot;background:#1b5e20;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;4&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#1b3a1d;font-size:13.5px;&quot;&gt;🤝 Netiqueta y respeto&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Trata a los demás online como te gustaría que te tratasen a ti. La amabilidad es la mejor huella digital que puedes dejar.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:13px 16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;div style=&quot;background:#1b5e20;color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;&quot;&gt;5&lt;/div&gt;
+        &lt;div&gt;&lt;strong style=&quot;display:block;color:#1b3a1d;font-size:13.5px;&quot;&gt;🏅 Certificado de Agente Digital&lt;/strong&gt;&lt;p style=&quot;font-size:12.5px;color:#444;margin:3px 0 0;line-height:1.5;&quot;&gt;Al aplicar estas reglas en cada sesión, demuestras que eres un verdadero Líder Cívico Digital. ¡Misión de seguridad completada!&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp2ljcdu-qcaknkkf2</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>EL RETO FINAL</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>EL RETO FINAL</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>EL RETO FINAL</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>EL RETO FINAL</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value>EL RETO FINAL</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value>&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#4a148c,#6a1b9a);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#ce93d8;color:#1a0030;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🏆 El reto final&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;Ha llegado el momento de actuar&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Habéis investigado, analizado y debatido. Ahora toca crear algo que tenga impacto real. Vuestro trabajo va a llegar más allá del aula.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;div style=&quot;background:#fff8e1;border-left:4px solid #f9a825;border-radius:8px;padding:14px 18px;margin-bottom:22px;font-size:13px;color:#4a3300;&quot;&gt;
+    &lt;strong&gt;¿Cuál es el reto?&lt;/strong&gt; Cada equipo creará una &lt;strong&gt;infografía digital o presentación interactiva&lt;/strong&gt; sobre el impacto de los excrementos caninos en la ciudad, para difundirla en el centro y concienciar a la comunidad educativa.
+  &lt;/div&gt;
+ 
+  &lt;div style=&quot;display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px;&quot;&gt;
+    &lt;!-- CANVA --&gt;
+    &lt;div style=&quot;background:linear-gradient(135deg,#1565c0,#0d47a1);border-radius:12px;padding:24px;color:#fff;&quot;&gt;
+      &lt;h3 style=&quot;font-size:18px;font-weight:900;margin:0 0 10px;&quot;&gt;🎨 Opción A — Infografía con Canva&lt;/h3&gt;
+      &lt;p style=&quot;font-size:13px;opacity:.92;line-height:1.7;margin:0 0 14px;&quot;&gt;Crearéis una infografía visual en &lt;strong&gt;Canva for Education&lt;/strong&gt;. Podéis trabajar en equipo en tiempo real, cada uno desde su tablet.&lt;/p&gt;
+      &lt;div style=&quot;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);display:inline-block;padding:6px 14px;border-radius:18px;font-size:12px;font-weight:700;margin-bottom:14px;&quot;&gt;🎨 Canva for Education&lt;/div&gt;
+      &lt;hr style=&quot;border-color:rgba(255,255,255,.2);margin:14px 0;&quot;&gt;
+      &lt;p style=&quot;font-size:12px;opacity:.88;margin:0 0 6px;font-weight:700;&quot;&gt;La infografía debe incluir:&lt;/p&gt;
+      &lt;ul style=&quot;font-size:12.5px;opacity:.9;line-height:1.8;margin:0;padding-left:18px;&quot;&gt;
+        &lt;li&gt;Portada con título llamativo&lt;/li&gt;
+        &lt;li&gt;Datos sobre enfermedades transmitidas&lt;/li&gt;
+        &lt;li&gt;Normativa y multas del municipio&lt;/li&gt;
+        &lt;li&gt;Impacto ambiental cuando llueve&lt;/li&gt;
+        &lt;li&gt;Propuestas ciudadanas&lt;/li&gt;
+        &lt;li&gt;Fuentes de imágenes y datos&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;!-- GENIALLY --&gt;
+    &lt;div style=&quot;background:linear-gradient(135deg,#880e4f,#ad1457);border-radius:12px;padding:24px;color:#fff;&quot;&gt;
+      &lt;h3 style=&quot;font-size:18px;font-weight:900;margin:0 0 10px;&quot;&gt;✨ Opción B — Genially (Misión Extra)&lt;/h3&gt;
+      &lt;p style=&quot;font-size:13px;opacity:.92;line-height:1.7;margin:0 0 14px;&quot;&gt;Para equipos que quieran ir más allá. Genially permite añadir &lt;em&gt;pop-ups&lt;/em&gt; con datos curiosos, vídeos sobre higiene urbana, mapas y animaciones.&lt;/p&gt;
+      &lt;div style=&quot;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);display:inline-block;padding:6px 14px;border-radius:18px;font-size:12px;font-weight:700;margin:0 6px 14px 0;&quot;&gt;✨ Genially&lt;/div&gt;
+      &lt;div style=&quot;background:#f9a825;color:#3e2000;display:inline-block;padding:6px 14px;border-radius:18px;font-size:12px;font-weight:700;margin-bottom:14px;&quot;&gt;♿ Opción DUA&lt;/div&gt;
+      &lt;hr style=&quot;border-color:rgba(255,255,255,.2);margin:14px 0;&quot;&gt;
+      &lt;p style=&quot;font-size:12.5px;opacity:.88;line-height:1.6;margin:0;&quot;&gt;Esta opción favorece la expresión múltiple (principio DUA). El alumnado con mayor autonomía digital puede ampliar su investigación con elementos interactivos y narrativos.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- JUSTIFICACIÓN DE LA HERRAMIENTA --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#4a148c;margin:0 0 12px;&quot;&gt;📝 ¿Por qué hemos elegido Canva?&lt;/h3&gt;
+    &lt;div style=&quot;display:grid;grid-template-columns:1fr 1fr;gap:10px;&quot;&gt;
+      &lt;div style=&quot;padding:12px;background:#ede7f6;border-radius:8px;&quot;&gt;&lt;strong style=&quot;color:#4a148c;font-size:12.5px;display:block;margin-bottom:4px;&quot;&gt;🌟 Versatilidad y profesionalidad&lt;/strong&gt;&lt;span style=&quot;font-size:12px;color:#444;line-height:1.5;&quot;&gt;Al ser un proyecto ApS, el producto tiene utilidad real fuera del aula. Canva permite crear materiales con acabado profesional.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#ede7f6;border-radius:8px;&quot;&gt;&lt;strong style=&quot;color:#4a148c;font-size:12.5px;display:block;margin-bottom:4px;&quot;&gt;💻 Trabajo colaborativo&lt;/strong&gt;&lt;span style=&quot;font-size:12px;color:#444;line-height:1.5;&quot;&gt;Al ser online, permite que varios alumnos editen la misma infografía de forma simultánea desde las tablets del aula.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#ede7f6;border-radius:8px;&quot;&gt;&lt;strong style=&quot;color:#4a148c;font-size:12.5px;display:block;margin-bottom:4px;&quot;&gt;♿ Accesibilidad (DUA)&lt;/strong&gt;&lt;span style=&quot;font-size:12px;color:#444;line-height:1.5;&quot;&gt;Las plantillas con jerarquías visuales ya definidas ayudan al alumnado con dificultades de organización a estructurar información.&lt;/span&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:12px;background:#ede7f6;border-radius:8px;&quot;&gt;&lt;strong style=&quot;color:#4a148c;font-size:12.5px;display:block;margin-bottom:4px;&quot;&gt;📱 Competencia Digital&lt;/strong&gt;&lt;span style=&quot;font-size:12px;color:#444;line-height:1.5;&quot;&gt;El alumnado aprende a seleccionar imágenes con licencias adecuadas y a entender el impacto de la comunicación digital.&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- EXPOSICIÓN ORAL --&gt;
+  &lt;div style=&quot;background:#e8f5e9;border-left:4px solid #43a047;border-radius:8px;padding:16px 18px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:14px;font-weight:800;color:#1b5e20;margin:0 0 8px;&quot;&gt;🎤 La exposición oral&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#444;margin:0;line-height:1.6;&quot;&gt;Cada equipo presentará su trabajo en una exposición de &lt;strong&gt;5-7 minutos&lt;/strong&gt;. Deberéis explicar qué problema detectasteis, qué aprendisteis y qué propuestas hacéis. Los compañeros podrán preguntar, así que dominad bien vuestro tema. &lt;strong&gt;Consejo: no leáis la pantalla.&lt;/strong&gt; Si lo habéis investigado bien, sabréis explicarlo con vuestras propias palabras.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp2ljcdu-xfvih1twu</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>PANELES DE INVESTIGACIÓN</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>PANELES DE INVESTIGACIÓN</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>PANELES DE INVESTIGACIÓN</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>PANELES DE INVESTIGACIÓN</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value>PANELES DE INVESTIGACIÓN</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value>&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#004d40,#00695c);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#80cbc4;color:#002b26;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🔬 Curación de contenidos&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;Paneles de Investigación&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Aquí encontraréis todos los recursos necesarios para vuestra misión, organizados y verificados. Para el alumnado: fuentes seguras. Para el profesorado: herramientas pedagógicas.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- PANEL ALUMNADO - SYMBALOO --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#004d40;margin:0 0 8px;&quot;&gt;🎓 Panel del Alumnado — Recopilación de recursos de investigación&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 6px;line-height:1.6;&quot;&gt;Panel creado en &lt;strong&gt;Symbaloo&lt;/strong&gt; con recursos seleccionados especialmente para vosotros: webs fiables, herramientas de creación y espacios de búsqueda guiada sobre alimentación saludable y civismo.&lt;/p&gt;
+    &lt;p style=&quot;font-size:12px;color:#888;margin:0 0 14px;font-style:italic;&quot;&gt;📌 Recursos de curación — Tarea 5.1 · Daniel Vallejo · CC BY-SA 4.0&lt;/p&gt;
+    &lt;div style=&quot;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://www.symbaloo.com/embed/AAAAAfdm7dwAA41-5EYPkQ==&quot; frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;500&quot; style=&quot;display:block;&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;margin-top:12px;text-align:center;&quot;&gt;
+      &lt;a href=&quot;https://www.symbaloo.com/shared/AAAAAfdm7dwAA41-5EYPkQ==&quot; target=&quot;_blank&quot; style=&quot;display:inline-block;background:#004d40;color:#fff;padding:8px 20px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none;&quot;&gt;🔗 Abrir panel en pantalla completa&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- PANEL DOCENTE - PADLET --&gt;
+  &lt;div style=&quot;background:#e8eaf6;border:2px dashed #5c6bc0;border-radius:10px;padding:22px 24px;margin-bottom:0;&quot;&gt;
+    &lt;div style=&quot;font-size:10.5px;font-weight:800;color:#3949ab;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;&quot;&gt;🔒 Solo para el profesorado&lt;/div&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#283593;margin:0 0 8px;&quot;&gt;📌 Caja de Herramientas del Profe — Padlet docente&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#333;margin:0 0 14px;line-height:1.6;&quot;&gt;Panel de recursos pedagógicos del docente, organizado en &lt;strong&gt;Padlet&lt;/strong&gt;. Incluye herramientas de gestión de aula, creación de contenidos, seguimiento del aprendizaje, normativa educativa (Decreto 101/2023, LOMLOE, DigCompEdu) y materiales de evaluación editables.&lt;/p&gt;
+    &lt;div style=&quot;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://padlet.com/embed/zuks1ee0z3vyhrb6&quot; frameborder=&quot;0&quot; allow=&quot;camera;microphone;geolocation&quot; width=&quot;100%&quot; height=&quot;500&quot; style=&quot;display:block;&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;margin-top:12px;text-align:center;&quot;&gt;
+      &lt;a href=&quot;https://padlet.com/dvalmar118/dani-vallejo-zuks1ee0z3vyhrb6&quot; target=&quot;_blank&quot; style=&quot;display:inline-block;background:#3949ab;color:#fff;padding:8px 20px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none;&quot;&gt;🔗 Abrir Padlet en pantalla completa&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp2ljcdv-c0c5wgwgv</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>HOJA DE RUTA DEL PROYECTO</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>HOJA DE RUTA DEL PROYECTO</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>HOJA DE RUTA DEL PROYECTO</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>HOJA DE RUTA DEL PROYECTO</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value>HOJA DE RUTA DEL PROYECTO</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value>&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#bf360c,#e64a19);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#ffcc80;color:#4a1900;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;🗺️ Planificación&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;La hoja de ruta de la misión&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Toda investigación seria necesita un plan. A continuación encontraréis el mapa completo del proyecto: qué haréis en cada fase y cuánto tiempo tenéis.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- LÍNEA TEMPORAL CANVA --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#bf360c;margin:0 0 8px;&quot;&gt;📅 Línea temporal interactiva del proyecto&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 6px;line-height:1.6;&quot;&gt;Visualización cronológica de todas las actividades del proyecto, elaborada con &lt;strong&gt;Canva&lt;/strong&gt;. Cada fase está representada con sus actividades, tiempos y herramientas asociadas.&lt;/p&gt;
+    &lt;p style=&quot;font-size:12px;color:#888;margin:0 0 14px;font-style:italic;&quot;&gt;📌 Tarea 7.1 · Daniel Vallejo · CC BY-SA 4.0&lt;/p&gt;
+    &lt;div style=&quot;position:relative;width:100%;padding-bottom:56.25%;height:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe loading=&quot;lazy&quot; style=&quot;position:absolute;width:100%;height:100%;top:0;left:0;border:none;padding:0;margin:0;&quot; src=&quot;https://www.canva.com/design/DAHI08riuu4/CKTaYbOfUuNmaVSyGUjWgA/view?embed&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;margin-top:12px;text-align:center;&quot;&gt;
+      &lt;a href=&quot;https://www.canva.com/design/DAHI08riuu4/CKTaYbOfUuNmaVSyGUjWgA/view&quot; target=&quot;_blank&quot; style=&quot;display:inline-block;background:#bf360c;color:#fff;padding:8px 20px;border-radius:20px;font-size:12.5px;font-weight:700;text-decoration:none;&quot;&gt;🔗 Abrir línea temporal en Canva&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- RESUMEN DE FASES --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#bf360c;margin:0 0 14px;&quot;&gt;📋 Resumen de las 5 fases&lt;/h3&gt;
+    &lt;div style=&quot;display:flex;flex-direction:column;gap:10px;&quot;&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:12px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;&lt;div style=&quot;background:#0d47a1;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:800;white-space:nowrap;flex-shrink:0;&quot;&gt;FASE 1&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;color:#333;font-size:13px;&quot;&gt;🔎 Detección del problema&lt;/strong&gt; &lt;span style=&quot;color:#888;font-size:11.5px;&quot;&gt;(Semana 1 · 2 sesiones)&lt;/span&gt;&lt;p style=&quot;font-size:12.5px;color:#555;margin:3px 0 0;line-height:1.5;&quot;&gt;Observamos el entorno, debatimos, formamos equipos y elegimos el enfoque de cada grupo.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:12px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;&lt;div style=&quot;background:#1565c0;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:800;white-space:nowrap;flex-shrink:0;&quot;&gt;FASE 2&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;color:#333;font-size:13px;&quot;&gt;📊 Investigación y análisis&lt;/strong&gt; &lt;span style=&quot;color:#888;font-size:11.5px;&quot;&gt;(Semanas 1-2 · 3 sesiones)&lt;/span&gt;&lt;p style=&quot;font-size:12.5px;color:#555;margin:3px 0 0;line-height:1.5;&quot;&gt;Buscamos información en las fuentes del Panel, contrastamos datos y citamos todas las fuentes.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:12px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;&lt;div style=&quot;background:#4a148c;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:800;white-space:nowrap;flex-shrink:0;&quot;&gt;FASE 3&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;color:#333;font-size:13px;&quot;&gt;🎨 Diseño de la campaña&lt;/strong&gt; &lt;span style=&quot;color:#888;font-size:11.5px;&quot;&gt;(Semanas 3-4 · 4 sesiones)&lt;/span&gt;&lt;p style=&quot;font-size:12.5px;color:#555;margin:3px 0 0;line-height:1.5;&quot;&gt;Creamos la infografía en Canva o la presentación en Genially. Cada miembro tiene un rol: coordinador/a, diseñador/a, redactor/a, documentalista.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:12px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;&lt;div style=&quot;background:#1b5e20;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:800;white-space:nowrap;flex-shrink:0;&quot;&gt;FASE 4&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;color:#333;font-size:13px;&quot;&gt;🎤 Exposición y coevaluación&lt;/strong&gt; &lt;span style=&quot;color:#888;font-size:11.5px;&quot;&gt;(Semana 5 · 2 sesiones)&lt;/span&gt;&lt;p style=&quot;font-size:12.5px;color:#555;margin:3px 0 0;line-height:1.5;&quot;&gt;Presentamos el trabajo al resto de la clase. Los compañeros evalúan con lista de cotejo. El docente aplica la rúbrica.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;display:flex;gap:14px;align-items:flex-start;padding:12px 16px;background:#fff8e1;border-radius:8px;border-left:4px solid #f9a825;&quot;&gt;&lt;div style=&quot;background:#bf360c;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:800;white-space:nowrap;flex-shrink:0;&quot;&gt;FASE 5&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;color:#333;font-size:13px;&quot;&gt;📢 Difusión de la campaña&lt;/strong&gt; &lt;span style=&quot;color:#888;font-size:11.5px;&quot;&gt;(Semana 5 · 1 sesión)&lt;/span&gt;&lt;p style=&quot;font-size:12.5px;color:#555;margin:3px 0 0;line-height:1.5;&quot;&gt;Los mejores trabajos se publican en el tablón digital del centro. Cerramos con reflexión colectiva sobre el aprendizaje.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp2ljcdv-4sg33a2sx</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>GUÍA DIDÁCTICA</pageName>
+  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>GUÍA DIDÁCTICA</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>GUÍA DIDÁCTICA</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>GUÍA DIDÁCTICA</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value>GUÍA DIDÁCTICA</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value>&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#37474f,#546e7a);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#b0bec5;color:#1a2327;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;📘 Uso docente&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;Guía Didáctica&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;Documento de orientación pedagógica para el profesorado. Incluye la relación entre tareas, criterios de evaluación y orientaciones metodológicas basadas en el Decreto 101/2023 y el marco DigCompEdu.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- AVISO DOCENTE --&gt;
+  &lt;div style=&quot;background:#e8eaf6;border:2px dashed #5c6bc0;border-radius:8px;padding:16px 20px;margin-bottom:22px;&quot;&gt;
+    &lt;div style=&quot;font-size:10.5px;font-weight:800;color:#3949ab;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;&quot;&gt;🔒 Para el profesorado&lt;/div&gt;
+    &lt;p style=&quot;font-size:13px;color:#333;margin:0;line-height:1.7;&quot;&gt;Esta guía facilita la aplicación del proyecto a cualquier maestro o maestra de 6.º de Primaria en Andalucía. Sigue el marco curricular del Decreto 101/2023, los principios DUA y el marco DigCompEdu.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- TABLA CRITERIOS - Drive embed --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#37474f;margin:0 0 8px;&quot;&gt;📊 Tabla: Tareas del proyecto y criterios de evaluación&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin:0 0 6px;line-height:1.6;&quot;&gt;Documento elaborado en la Tarea 6.1 que relaciona cada actividad del proyecto con los criterios de evaluación del currículo andaluz (Decreto 101/2023) y los descriptores de la competencia digital (DigCompEdu).&lt;/p&gt;
+    &lt;p style=&quot;font-size:12px;color:#888;margin:0 0 14px;font-style:italic;&quot;&gt;📌 Tarea 6.1 · Daniel Vallejo · CC BY-SA 4.0&lt;/p&gt;
+    &lt;div style=&quot;position:relative;width:100%;padding-bottom:75%;height:0;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);&quot;&gt;
+      &lt;iframe src=&quot;https://drive.google.com/file/d/1vftyJob4aomIzLnCaC1cxwsAZhfyYZsZ/preview&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;border:0;&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- DATOS GENERALES --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#37474f;margin:0 0 14px;&quot;&gt;ℹ️ Información general del proyecto&lt;/h3&gt;
+    &lt;div style=&quot;display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:13px;&quot;&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Etapa:&lt;/span&gt; &lt;strong&gt;Educación Primaria&lt;/strong&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Curso:&lt;/span&gt; &lt;strong&gt;6.º (11-12 años)&lt;/strong&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Metodología:&lt;/span&gt; &lt;strong&gt;ABP + DUA + Cooperativo&lt;/strong&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Duración:&lt;/span&gt; &lt;strong&gt;5 semanas (~12 sesiones)&lt;/strong&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Normativa:&lt;/span&gt; &lt;strong&gt;Decreto 101/2023 · LOMLOE&lt;/strong&gt;&lt;/div&gt;
+      &lt;div style=&quot;padding:8px 0;border-bottom:1px solid #eee;&quot;&gt;&lt;span style=&quot;color:#777;&quot;&gt;Marco digital:&lt;/span&gt; &lt;strong&gt;DigCompEdu&lt;/strong&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- ORIENTACIONES METODOLÓGICAS --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#37474f;margin:0 0 12px;&quot;&gt;💡 Orientaciones metodológicas&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13.5px;line-height:1.75;margin-bottom:11px;color:#444;&quot;&gt;Este proyecto aplica la metodología de &lt;strong&gt;Aprendizaje Basado en Proyectos (ABP)&lt;/strong&gt; con trabajo cooperativo en grupos heterogéneos. El rol del docente es de guía y acompañante: facilita el acceso a recursos y proporciona retroalimentación formativa.&lt;/p&gt;
+    &lt;p style=&quot;font-size:13.5px;line-height:1.75;margin-bottom:11px;color:#444;&quot;&gt;Se recomienda configurar los grupos de manera &lt;strong&gt;heterogénea&lt;/strong&gt; en cuanto a competencia digital. El alumnado más hábil con las herramientas apoya a los compañeros, consolidando su propio aprendizaje mediante la enseñanza entre iguales.&lt;/p&gt;
+    &lt;div style=&quot;background:#e3f2fd;border-left:4px solid #1976d2;border-radius:6px;padding:12px 16px;font-size:12.5px;color:#0d2a47;line-height:1.6;&quot;&gt;
+      &lt;strong&gt;⚠️ Protección de datos:&lt;/strong&gt; Antes de iniciar el proyecto, el docente verificará que el alumnado está registrado en Canva for Education según el protocolo del centro y con consentimiento familiar, conforme al RGPD y a la normativa de la Junta de Andalucía.
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp2ljcdv-brfg8dvcr</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>EVALUACIÓN</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>EVALUACIÓN</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>EVALUACIÓN</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>EVALUACIÓN</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value>EVALUACIÓN</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value>&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#1b5e20,#2e7d32);border-radius:12px;padding:36px 32px;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;background:#a5d6a7;color:#1b3a1d;display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px;&quot;&gt;📋 Evaluación&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:28px;font-weight:900;margin:0 0 10px;line-height:1.2;&quot;&gt;¿Cómo se va a evaluar vuestro trabajo?&lt;/h2&gt;
+    &lt;p style=&quot;font-size:14px;opacity:.9;line-height:1.7;max-width:560px;margin:0;&quot;&gt;La evaluación tiene en cuenta cómo habéis trabajado durante todo el proceso: el producto final, la exposición, la investigación y vuestra propia reflexión.&lt;/p&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- INSTRUMENTOS --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1b5e20;margin:0 0 14px;&quot;&gt;🛠️ Tres instrumentos de evaluación&lt;/h3&gt;
+    &lt;div style=&quot;display:flex;flex-direction:column;gap:12px;&quot;&gt;
+      &lt;div style=&quot;padding:16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;strong style=&quot;color:#1b5e20;font-size:14px;display:block;margin-bottom:6px;&quot;&gt;📓 Instrumento 1: Cuaderno Séneca (Evaluación oficial)&lt;/strong&gt;
+        &lt;p style=&quot;font-size:12.5px;color:#444;margin:0;line-height:1.6;&quot;&gt;Es el eje vertebrador de la evaluación diaria. Vincula directamente los criterios de evaluación con las Competencias Específicas y los Descriptores Operativos. Permite automatizar la ponderación y generar el perfil competencial del alumnado de forma transparente para familias y equipo docente.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;padding:16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;strong style=&quot;color:#1b5e20;font-size:14px;display:block;margin-bottom:6px;&quot;&gt;📊 Instrumento 2: Rúbrica de Registro Diario&lt;/strong&gt;
+        &lt;p style=&quot;font-size:12.5px;color:#444;margin:0;line-height:1.6;&quot;&gt;Sirve de puente entre el trabajo en el aula y la calificación oficial. Utilizo una tabla de seguimiento donde cada columna representa una evidencia de aprendizaje (Infografía, Expresión Oral, Uso de Canva, etc.). Si detecto una puntuación baja, puedo intervenir antes de cerrar la unidad.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;padding:16px;background:#e8f5e9;border-radius:8px;border-left:4px solid #43a047;&quot;&gt;
+        &lt;strong style=&quot;color:#1b5e20;font-size:14px;display:block;margin-bottom:6px;&quot;&gt;🪞 Instrumento 3: Rúbrica de Autoevaluación del alumnado&lt;/strong&gt;
+        &lt;p style=&quot;font-size:12.5px;color:#444;margin:0;line-height:1.6;&quot;&gt;El alumnado valora su participación, interés, respeto y trabajo en grupo mediante cuatro niveles (Poco logrado, Mejorable, Bastante bien, Muy bien). Los resultados se contrastan con el Registro Diario para validar si la percepción del alumno coincide con las evidencias observadas.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- RÚBRICA DEL PRODUCTO DIGITAL --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;margin-bottom:22px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1b5e20;margin:0 0 12px;&quot;&gt;📏 Rúbrica del producto digital&lt;/h3&gt;
+    &lt;div style=&quot;overflow-x:auto;&quot;&gt;
+      &lt;table style=&quot;width:100%;border-collapse:collapse;font-size:12px;&quot;&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;&lt;th style=&quot;background:#37474f;color:#fff;padding:9px 12px;text-align:left;font-weight:700;width:20%;&quot;&gt;Criterio&lt;/th&gt;&lt;th style=&quot;background:#37474f;color:#fff;padding:9px 12px;text-align:left;width:20%;&quot;&gt;Iniciado (1)&lt;/th&gt;&lt;th style=&quot;background:#37474f;color:#fff;padding:9px 12px;text-align:left;width:20%;&quot;&gt;En proceso (2)&lt;/th&gt;&lt;th style=&quot;background:#37474f;color:#fff;padding:9px 12px;text-align:left;width:20%;&quot;&gt;Conseguido (3)&lt;/th&gt;&lt;th style=&quot;background:#37474f;color:#fff;padding:9px 12px;text-align:left;width:20%;&quot;&gt;Excelente (4)&lt;/th&gt;&lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#f5f5f5;font-weight:600;&quot;&gt;📊 Contenido y rigor&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#ffebee;color:#b71c1c;font-weight:700;text-align:center;&quot;&gt;Escaso o sin contrastar&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#fff8e1;color:#6d4c00;font-weight:700;text-align:center;&quot;&gt;Relevante pero sin citar fuentes&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e8f5e9;color:#1b5e20;font-weight:700;text-align:center;&quot;&gt;Correcto, contrastado y citado&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e3f2fd;color:#0d47a1;font-weight:700;text-align:center;&quot;&gt;Riguroso, multifuente e integrado&lt;/td&gt;&lt;/tr&gt;
+          &lt;tr&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#f5f5f5;font-weight:600;&quot;&gt;🎨 Diseño y creatividad&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#ffebee;color:#b71c1c;font-weight:700;text-align:center;&quot;&gt;Confuso, sin jerarquía&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#fff8e1;color:#6d4c00;font-weight:700;text-align:center;&quot;&gt;Funcional pero básico&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e8f5e9;color:#1b5e20;font-weight:700;text-align:center;&quot;&gt;Limpio, atractivo y claro&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e3f2fd;color:#0d47a1;font-weight:700;text-align:center;&quot;&gt;Original, coherente e impactante&lt;/td&gt;&lt;/tr&gt;
+          &lt;tr&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#f5f5f5;font-weight:600;&quot;&gt;©️ Derechos de autor&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#ffebee;color:#b71c1c;font-weight:700;text-align:center;&quot;&gt;Sin fuente ni licencia&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#fff8e1;color:#6d4c00;font-weight:700;text-align:center;&quot;&gt;Alguna fuente pero incompleto&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e8f5e9;color:#1b5e20;font-weight:700;text-align:center;&quot;&gt;Bancos libres, autor y fuente citados&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e3f2fd;color:#0d47a1;font-weight:700;text-align:center;&quot;&gt;Todo documentado con autor, fuente y licencia CC&lt;/td&gt;&lt;/tr&gt;
+          &lt;tr&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#f5f5f5;font-weight:600;&quot;&gt;🤝 Trabajo en equipo&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#ffebee;color:#b71c1c;font-weight:700;text-align:center;&quot;&gt;Solo 1-2 miembros activos&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#fff8e1;color:#6d4c00;font-weight:700;text-align:center;&quot;&gt;Mayoría participa pero desigual&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e8f5e9;color:#1b5e20;font-weight:700;text-align:center;&quot;&gt;Todos participan, roles definidos&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e3f2fd;color:#0d47a1;font-weight:700;text-align:center;&quot;&gt;Colaboración excelente y apoyo mutuo constante&lt;/td&gt;&lt;/tr&gt;
+          &lt;tr&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#f5f5f5;font-weight:600;&quot;&gt;💻 Uso de la herramienta&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#ffebee;color:#b71c1c;font-weight:700;text-align:center;&quot;&gt;Muy limitado o con errores&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#fff8e1;color:#6d4c00;font-weight:700;text-align:center;&quot;&gt;Correcto pero sin aprovechar&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e8f5e9;color:#1b5e20;font-weight:700;text-align:center;&quot;&gt;Con soltura y funciones principales&lt;/td&gt;&lt;td style=&quot;padding:9px 12px;border:1px solid #e0e0e0;background:#e3f2fd;color:#0d47a1;font-weight:700;text-align:center;&quot;&gt;Uso experto incluyendo funciones avanzadas&lt;/td&gt;&lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;!-- PONDERACIÓN --&gt;
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+    &lt;h3 style=&quot;font-size:16px;font-weight:800;color:#1b5e20;margin:0 0 14px;&quot;&gt;⚖️ Distribución de la calificación&lt;/h3&gt;
+    &lt;div style=&quot;display:flex;flex-direction:column;gap:10px;&quot;&gt;
+      &lt;div&gt;&lt;div style=&quot;display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;&quot;&gt;&lt;span&gt;Producto digital (Infografía / Genially)&lt;/span&gt;&lt;strong style=&quot;color:#0d47a1;&quot;&gt;40%&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;&quot;&gt;&lt;div style=&quot;height:100%;width:40%;background:#1976d2;border-radius:4px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;div style=&quot;display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;&quot;&gt;&lt;span&gt;Exposición oral&lt;/span&gt;&lt;strong style=&quot;color:#0d47a1;&quot;&gt;25%&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;&quot;&gt;&lt;div style=&quot;height:100%;width:25%;background:#43a047;border-radius:4px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;div style=&quot;display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;&quot;&gt;&lt;span&gt;Proceso e investigación&lt;/span&gt;&lt;strong style=&quot;color:#0d47a1;&quot;&gt;20%&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;&quot;&gt;&lt;div style=&quot;height:100%;width:20%;background:#f9a825;border-radius:4px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;div style=&quot;display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px;&quot;&gt;&lt;span&gt;Autoevaluación y coevaluación&lt;/span&gt;&lt;strong style=&quot;color:#0d47a1;&quot;&gt;15%&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;&quot;&gt;&lt;div style=&quot;height:100%;width:15%;background:#ce93d8;border-radius:4px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mp2ljcdv-g4ip0duno</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>CRÉDITOS</pageName>
+  <odeNavStructureOrder>7</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>CRÉDITOS</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>CRÉDITOS</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>CRÉDITOS</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value>CRÉDITOS</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value>&lt;div style=&quot;font-family:&apos;Segoe UI&apos;,Arial,sans-serif;max-width:860px;margin:0 auto;&quot;&gt;
+ 
+  &lt;div style=&quot;background:linear-gradient(135deg,#0a2e6e,#062050);border-radius:12px;padding:38px;text-align:center;margin-bottom:22px;color:#fff;&quot;&gt;
+    &lt;div style=&quot;font-size:52px;margin-bottom:14px;&quot;&gt;🐾&lt;/div&gt;
+    &lt;h2 style=&quot;font-size:24px;font-weight:900;margin:0 0 7px;&quot;&gt;Créditos y autoría&lt;/h2&gt;
+    &lt;p style=&quot;opacity:.85;font-size:13.5px;max-width:480px;margin:0 auto 16px;&quot;&gt;Información sobre la autoría, condiciones de uso y descarga del archivo fuente para que puedas adaptarlo a tu aula.&lt;/p&gt;
+    &lt;div style=&quot;display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.28);border-radius:20px;padding:7px 18px;font-size:13px;font-weight:600;&quot;&gt;
+      ⓒ Creative Commons BY-SA 4.0
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;div style=&quot;display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;&quot;&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;h3 style=&quot;font-size:15px;font-weight:800;color:#0d47a1;margin:0 0 14px;&quot;&gt;👤 Autoría del recurso&lt;/h3&gt;
+      &lt;table style=&quot;width:100%;font-size:13px;border-collapse:collapse;&quot;&gt;
+        &lt;tr&gt;&lt;td style=&quot;padding:7px 0;color:#777;width:40%;&quot;&gt;Autor&lt;/td&gt;&lt;td style=&quot;font-weight:700;color:#0d47a1;padding:7px 0;&quot;&gt;Daniel Vallejo&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Centro&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;[Nombre del Centro]&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Localidad&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;[Localidad], Andalucía&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Curso&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;2024-2025&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Nivel&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;6.º Educación Primaria&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Formación&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;Curso CDD B2 — CEP Andalucía&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr style=&quot;border-top:1px solid #eee;&quot;&gt;&lt;td style=&quot;padding:7px 0;color:#777;&quot;&gt;Licencia&lt;/td&gt;&lt;td style=&quot;font-weight:600;padding:7px 0;&quot;&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.es&quot; target=&quot;_blank&quot; style=&quot;color:#0d47a1;&quot;&gt;CC BY-SA 4.0&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;&quot;&gt;
+      &lt;h3 style=&quot;font-size:15px;font-weight:800;color:#0d47a1;margin:0 0 12px;&quot;&gt;📄 Descripción del recurso&lt;/h3&gt;
+      &lt;p style=&quot;font-size:13px;line-height:1.75;margin-bottom:10px;color:#444;&quot;&gt;&lt;strong&gt;«Civismo en marcha: Mi ciudad limpia de excrementos»&lt;/strong&gt; es una Situación de Aprendizaje basada en ABP para 6.º de Primaria. Aborda el problema cívico de los excrementos caninos en el entorno urbano desde un enfoque interdisciplinar.&lt;/p&gt;
+      &lt;p style=&quot;font-size:13px;line-height:1.75;color:#444;&quot;&gt;El alumnado, como &lt;em&gt;Agentes de Civismo Digital&lt;/em&gt;, investiga el impacto, crea una campaña con Canva o Genially y la difunde en la comunidad educativa. Sigue los principios DUA y el marco DigCompEdu.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;div style=&quot;background:#e8f5e9;border-left:4px solid #43a047;border-radius:10px;padding:22px 24px;margin-bottom:16px;&quot;&gt;
+    &lt;h3 style=&quot;font-size:15px;font-weight:800;color:#1b5e20;margin:0 0 12px;&quot;&gt;⚖️ Condiciones de uso — CC BY-SA 4.0&lt;/h3&gt;
+    &lt;div style=&quot;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;&quot;&gt;
+      &lt;div style=&quot;text-align:center;padding:14px;background:#fff;border-radius:8px;&quot;&gt;&lt;div style=&quot;font-size:22px;margin-bottom:6px;&quot;&gt;✅&lt;/div&gt;&lt;div style=&quot;font-weight:700;color:#1b5e20;font-size:12.5px;&quot;&gt;Compartir&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;color:#555;margin-top:4px;&quot;&gt;Copia y redistribuye en cualquier medio o formato.&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;text-align:center;padding:14px;background:#fff;border-radius:8px;&quot;&gt;&lt;div style=&quot;font-size:22px;margin-bottom:6px;&quot;&gt;🔧&lt;/div&gt;&lt;div style=&quot;font-weight:700;color:#1b5e20;font-size:12.5px;&quot;&gt;Adaptar&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;color:#555;margin-top:4px;&quot;&gt;Remezcla y adapta el material para tu aula.&lt;/div&gt;&lt;/div&gt;
+      &lt;div style=&quot;text-align:center;padding:14px;background:#fff;border-radius:8px;&quot;&gt;&lt;div style=&quot;font-size:22px;margin-bottom:6px;&quot;&gt;⚠️&lt;/div&gt;&lt;div style=&quot;font-weight:700;color:#6d4c00;font-size:12.5px;&quot;&gt;Condiciones&lt;/div&gt;&lt;div style=&quot;font-size:11.5px;color:#555;margin-top:4px;&quot;&gt;Cita a Daniel Vallejo y comparte con la misma licencia.&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+  &lt;div style=&quot;background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08);border:1px solid #eee;text-align:center;&quot;&gt;
+    &lt;h3 style=&quot;font-size:15px;font-weight:800;color:#0d47a1;margin:0 0 8px;&quot;&gt;⬇️ Descarga el archivo editable&lt;/h3&gt;
+    &lt;p style=&quot;font-size:13px;color:#666;margin:0 auto 16px;max-width:500px;line-height:1.7;&quot;&gt;¿Quieres adaptar este proyecto? Descarga el archivo fuente &lt;strong&gt;.elpx&lt;/strong&gt; y ábrelo con eXeLearning 3 (gratuito) para modificar cualquier sección.&lt;/p&gt;
+    &lt;!-- NOTA: Sustituye el href=&quot;#&quot; por el enlace real al archivo .elpx en Drive o GitHub --&gt;
+    &lt;a href=&quot;#&quot; style=&quot;display:inline-flex;align-items:center;gap:9px;background:#f9a825;color:#3e2000;padding:12px 28px;border-radius:28px;font-size:14px;font-weight:800;text-decoration:none;&quot;&gt;
+      ⬇️ Descargar archivo .elpx
+    &lt;/a&gt;
+    &lt;p style=&quot;font-size:11.5px;color:#999;margin-top:12px;&quot;&gt;Requiere &lt;a href=&quot;https://exelearning.net&quot; target=&quot;_blank&quot; style=&quot;color:#0d47a1;&quot;&gt;eXeLearning 3&lt;/a&gt; — software libre y gratuito&lt;/p&gt;
+    &lt;hr style=&quot;border:none;border-top:1px solid #eee;margin:18px 0;&quot;&gt;
+    &lt;p style=&quot;font-size:13px;color:#555;margin-bottom:8px;&quot;&gt;📡 Este recurso también está disponible en:&lt;/p&gt;
+    &lt;a href=&quot;#&quot; style=&quot;color:#0d47a1;font-weight:700;font-size:13px;&quot;&gt;🌐 [Enlace a GitHub Pages — añadir tras publicar]&lt;/a&gt;
+    &lt;br&gt;&lt;br&gt;
+    &lt;div style=&quot;background:#e3f2fd;border-radius:8px;padding:14px 16px;text-align:left;font-size:13px;color:#0d2a47;&quot;&gt;
+      &lt;strong&gt;💬 Para el profesorado que llegue hasta aquí:&lt;/strong&gt; Este proyecto nace de la reflexión sobre la práctica docente real. Si lo utilizáis o mejoráis, estaré encantado de conocer vuestra experiencia. Compartir es la mejor forma de mejorar la educación. — &lt;em&gt;Daniel Vallejo&lt;/em&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ 
+&lt;/div&gt;</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>
